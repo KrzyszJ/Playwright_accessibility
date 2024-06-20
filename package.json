@@ -1,0 +1,22 @@
+{
+  "name": "playwright_accessibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testDesktop": "npx playwright test --project=AccessibilityDesktop",
+    "testMobile": "npx playwright test --project=AccessibilityMobile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.9.1",
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.5",
+    "fs": "^0.0.1-security"
+  },
+  "dependencies": {
+    "axe-html-reporter": "^2.2.3"
+  }
+}
